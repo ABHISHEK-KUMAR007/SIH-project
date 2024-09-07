@@ -32,13 +32,13 @@ function Sidebar() {
 
     return (
         <div>
-            <div className='search'>
+            <div className='search' >
             <img alt='image' className='search-icon' src={lens}/>
             <input placeholder='Search for new chat' className='search-text'/>
             </div>
             {users.filter(user => user.id !== auth.currentUser?.uid).map((user,index) => {
                 return <div key={index}>
-                <div key={index}>
+                <div key={index} >
                 <Link key={index} to="/chat" className='chat-link' state={{id:user.id,username:user.username,profile_image:user.profile_image}}>
                     <Paper elevation={0} sx={{ border: "1px solid #D4D4D4" }}>
                         <List>

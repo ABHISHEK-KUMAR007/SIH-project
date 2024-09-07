@@ -1,7 +1,8 @@
 .profile-img {
-    margin-top: 10px;
+    margin: 10px;
     border-radius: 50px;
     width: 50px;
+
 }
 .reciever-name {
     color: black;
@@ -9,6 +10,16 @@
     margin-left: 10px;
 }
 .logout-icon {
-    width: 15px;
+    width: 30px;
     cursor: pointer;
+    padding-left: 1vw;
+    height:30px;
+    margin-right: auto;
+
 }
+.logout-text{
+    /* margin:5px; */
+    padding-left: 80vw;
+    color:black;
+}
+

@@ -5,6 +5,10 @@ import Sidebar from './Sidebar'
 import "./Main.css"
 import smartphone from "../images/smartphone.png"
 
+
+
+
+
 function Main() {
   return (
     <div>
